@@ -27,8 +27,8 @@ const TESTIMONIALS = [
     video: null,
   },
   {
-    name: 'Jack',
-    role: 'WeFoundrs',
+    name: 'WeFoundrs',
+    role: 'WeFoundrs - founder',
     photo: '/images/wefoundrs.png',
     text: 'Really good work. Strong execution, fast turnaround, and great creative instincts.',
     tilt: '-2deg',
@@ -36,7 +36,7 @@ const TESTIMONIALS = [
     video: null,
   },
   {
-    name: 'Wil Brown',
+    name: 'York Sidorenko',
     role: 'Vantage Marketing Canada',
     photo: '/images/vantage.png',
     text: 'Working with Bharath elevated our entire content strategy. His understanding of rhythm, pacing, and visual storytelling is genuinely rare.',

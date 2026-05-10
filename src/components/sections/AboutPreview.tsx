@@ -72,9 +72,12 @@ export default function AboutPreview() {
                             background: '#1a1a1a',
                         }}
                     >
-                        <img
-                            src="https://images.unsplash.com/photo-1618609377864-68609b857e90?auto=format&fit=crop&q=80&w=800"
-                            alt="Bharath at the edit suite"
+                        <motion.video
+                            src="https://pub-abc9673bee79483f90f3afd3e4864cd6.r2.dev/about-preview-01.MP4"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />
                     </motion.div>
@@ -98,7 +101,7 @@ export default function AboutPreview() {
                         }}
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&q=80&w=800"
+                            src="/images/about-preview-02.png"
                             alt="Timeline editing"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />
