@@ -102,7 +102,7 @@ export default function IntroSplash({ onComplete }: { onComplete: () => void }) 
               key={i}
               style={{
                 width: `${CARD_W}px`,
-                height: '55vh',
+                height: '25vh',
                 borderRadius: '10px',
                 overflow: 'hidden',
                 flexShrink: 0,
