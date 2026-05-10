@@ -173,8 +173,7 @@ function WorkCard({
   }, [isHovered, isOtherHovered]);
 
   return (
-    <Link
-      href={`/work/${project.slug}`}
+    <div
       className="work-card"
       style={{
         display: 'block',
@@ -274,7 +273,7 @@ function WorkCard({
           <span style={{ color: '#fff', fontSize: '16px' }}>→</span>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
 

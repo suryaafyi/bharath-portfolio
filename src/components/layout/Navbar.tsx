@@ -57,10 +57,10 @@ export default function Navbar() {
 
       {/* Nav Items */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <NavLink href="#services">WHAT WE DO</NavLink>
-        {/* <NavLink href="#about">OUR JOURNEY</NavLink> */}
+        <NavLink href="/#services">WHAT WE DO</NavLink>
+        <NavLink href="/about">ABOUT US</NavLink>
 
-        <Link href="#contact" style={{ display: 'flex', alignItems: 'center', height: '38px', textDecoration: 'none' }}>
+        <Link href="/#contact" style={{ display: 'flex', alignItems: 'center', height: '38px', textDecoration: 'none' }}>
           <div style={{
             height: '100%',
             border: '1px solid rgba(255,255,255,0.6)',
