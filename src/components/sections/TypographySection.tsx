@@ -6,6 +6,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const R2 = 'https://pub-abc9673bee79483f90f3afd3e4864cd6.r2.dev';
+
 export default function TypographySection() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -127,7 +129,7 @@ export default function TypographySection() {
         <div className="type-line" style={lineFlexStyle}>
           <span className="inline-visual" style={visualStyle}>
             <video
-              src="/videos/typo-01.mp4"
+              src={`${R2}/typo-01.mp4`}
               autoPlay
               muted
               loop
@@ -138,7 +140,7 @@ export default function TypographySection() {
           <span style={textStyle}>brands</span>
           <span className="inline-visual" style={visualStyle}>
             <video
-              src="/videos/typo-02.mp4"
+              src={`${R2}/typo-02.mp4`}
               autoPlay
               muted
               loop
@@ -158,7 +160,7 @@ export default function TypographySection() {
           <span style={textStyle}>Every frame</span>
           <span className="inline-visual" style={visualStyle}>
             <video
-              src="/videos/typo-03.mp4"
+              src={`${R2}/typo-03.mp4`}
               autoPlay
               muted
               loop
@@ -174,7 +176,7 @@ export default function TypographySection() {
           <span style={textStyle}>Every cut</span>
           <span className="inline-visual" style={visualStyle}>
             <video
-              src="/videos/typo-04.mp4"
+              src={`${R2}/typo-04.mp4`}
               autoPlay
               muted
               loop

@@ -6,12 +6,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const R2 = 'https://pub-abc9673bee79483f90f3afd3e4864cd6.r2.dev';
+
 const SERVICES = [
   {
     title: "Video\nEditing",
     description: "The craft behind every story. We turn raw footage into cinematic experiences.",
     tag: "CUTS / TRANSITIONS / COLOR",
-    video: "/videos/stack-01.mp4",
+    video: `${R2}/stack-01.mp4`,
     bg: "#0D0D0D",
     color: "#ffffff",
   },
@@ -19,7 +21,7 @@ const SERVICES = [
     title: "Motion\nDesign",
     description: "When still isn't enough. Elevating brands with fluid, purposeful animation.",
     tag: "2D / 3D / KINETIC",
-    video: "/videos/stack-02.mp4",
+    video: `${R2}/stack-02.mp4`,
     bg: "#EFEFED",
     color: "#1a1a1a",
   },
@@ -27,7 +29,7 @@ const SERVICES = [
     title: "Typography",
     description: "Words that move you. Literally. Narrative-driven motion typography.",
     tag: "EDITORIAL / BOLD / REVEALS",
-    video: "/videos/stack-03.mp4",
+    video: `${R2}/stack-03.mp4`,
     bg: "#E8341C",
     color: "#ffffff",
   },
@@ -35,7 +37,7 @@ const SERVICES = [
     title: "Longform\nContent",
     description: "The full story, told with patience. Documentaries, interviews, and deep dives.",
     tag: "YOUTUBE / DOCS / INTERVIEWS",
-    video: "/videos/stack-04.mp4",
+    video: `${R2}/stack-04.mp4`,
     bg: "#1a1a1a",
     color: "#ffffff",
   },
@@ -43,7 +45,7 @@ const SERVICES = [
     title: "Shortform\nContent",
     description: "Every second earns its place. High-impact content for the modern scroll.",
     tag: "REELS / TIKTOK / SHORTS",
-    video: "/videos/stack-05.mp4",
+    video: `${R2}/stack-05.mp4`,
     bg: "#EFEFED",
     color: "#1a1a1a",
   },

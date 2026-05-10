@@ -7,47 +7,49 @@ import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger);
 
+const R2 = 'https://pub-abc9673bee79483f90f3afd3e4864cd6.r2.dev';
+
 const PROJECTS = [
   {
     slug: 'podcast-edit',
     title: 'Podcast',
     category: 'LONGFORM EDIT',
-    video: '/videos/long-form-edit.mp4',
+    video: `${R2}/long-form-edit.mp4`,
     tall: true,
   },
   {
     slug: 'brand-reel',
     title: 'Brand Motion Reel',
     category: 'MOTION DESIGN',
-    video: '/videos/motion-design.mp4',
+    video: `${R2}/motion-design.mp4`,
     tall: false,
   },
   {
     slug: 'ugc-campaign',
     title: 'UGC Ad Campaign',
     category: 'SHORT FORM · UGC',
-    video: '/videos/ugc.mp4',
+    video: `${R2}/ugc.mp4`,
     tall: false,
   },
   {
     slug: 'typography-ident',
     title: 'Typography Ident',
     category: 'MOTION TYPOGRAPHY',
-    video: '/videos/typography.mp4',
+    video: `${R2}/typography.mp4`,
     tall: true,
   },
   {
     slug: 'commercial-cut',
     title: 'Product Commercial',
     category: 'COMMERCIAL EDIT',
-    video: '/videos/product.mp4',
+    video: `${R2}/product.mp4`,
     tall: false,
   },
   {
     slug: 'social-series',
     title: 'Social Content Series',
     category: 'REELS · TIKTOK',
-    video: '/videos/social.mp4',
+    video: `${R2}/social.mp4`,
     tall: false,
   },
 ];

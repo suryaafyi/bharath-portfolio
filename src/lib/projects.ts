@@ -12,13 +12,14 @@ export interface Project {
   description: string;
   size?: 'tall' | 'wide' | 'regular';
 }
+const R2 = 'https://pub-abc9673bee79483f90f3afd3e4864cd6.r2.dev';
 
 export const PROJECTS: Project[] = [
   {
     id: '1',
     title: 'Aquamare Marine',
     category: 'Brand Media Refresh',
-    video: '/videos/01.mp4',
+    video: `${R2}/01.mp4`,
     slug: 'aquamare-marine',
     client: 'Aquamare',
     production: 'TCM Studio',
@@ -32,7 +33,7 @@ export const PROJECTS: Project[] = [
     id: '2',
     title: 'MainStage Festival',
     category: 'Event Coverage',
-    video: '/videos/02.mp4',
+    video: `${R2}/02.mp4`,
     slug: 'mainstage-festival',
     client: 'MainStage',
     production: 'Live Pulse',
@@ -46,7 +47,7 @@ export const PROJECTS: Project[] = [
     id: '3',
     title: 'Plymouth Argyle',
     category: 'Kit Launch Campaign',
-    video: '/videos/03.mp4',
+    video: `${R2}/03.mp4`,
     slug: 'plymouth-argyle',
     client: 'PAFC',
     production: 'Goal Media',
@@ -60,7 +61,7 @@ export const PROJECTS: Project[] = [
     id: '4',
     title: 'Commercial Edit',
     category: 'Product Reel',
-    video: '/videos/04.mp4',
+    video: `${R2}/04.mp4`,
     slug: 'commercial-edit',
     client: 'Lumina Tech',
     production: 'Visionary Co',
@@ -74,7 +75,7 @@ export const PROJECTS: Project[] = [
     id: '5',
     title: 'Motion Typography',
     category: 'Brand Ident',
-    video: '/videos/05.mp4',
+    video: `${R2}/05.mp4`,
     slug: 'motion-typography',
     client: 'Typo Agency',
     production: 'In-House',
@@ -88,7 +89,7 @@ export const PROJECTS: Project[] = [
     id: '6',
     title: 'UGC Ad Series',
     category: 'Social Campaign',
-    video: '/videos/01.mp4',
+    video: `${R2}/01.mp4`,
     slug: 'ugc-ad-series',
     client: 'Glossy Co',
     production: 'Social First',
