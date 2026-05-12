@@ -3,6 +3,7 @@ import "./globals.css";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import Cursor from "@/components/ui/Cursor";
 import GrainOverlay from "@/components/ui/GrainOverlay";
+import MobileBanner from "@/components/ui/MobileBanner";
 
 export const metadata: Metadata = {
   title: "Creative Video Editor Portfolio",
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en" className="antialiased">
       <body className="bg-brand-black text-brand-white selection:bg-brand-red selection:text-brand-white">
         <SmoothScroll>
+          <MobileBanner />
           <div className="vignette" />
           <GrainOverlay />
           <Cursor />
